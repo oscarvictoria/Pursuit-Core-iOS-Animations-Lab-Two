@@ -28,6 +28,7 @@ class MainView: UIView {
         let image = UIImageView()
         image.image = UIImage(named: "beach-ball")
         image.contentMode = .scaleAspectFit
+        image.alpha = 1
         return image
     }()
     
@@ -35,6 +36,7 @@ class MainView: UIView {
         let image = UIImageView()
         image.image = UIImage(named: "beach-ball")
         image.contentMode = .scaleAspectFit
+        image.alpha = 1
         return image
     }()
     
@@ -42,6 +44,7 @@ class MainView: UIView {
         let image = UIImageView()
         image.image = UIImage(named: "beach-ball")
         image.contentMode = .scaleAspectFit
+        image.alpha = 1
         return image
     }()
     
@@ -49,6 +52,7 @@ class MainView: UIView {
         let image = UIImageView()
         image.image = UIImage(named: "beach-ball")
         image.contentMode = .scaleAspectFit
+        image.alpha = 1
         return image
     }()
     
@@ -78,6 +82,7 @@ class MainView: UIView {
         let button = UIButton()
         button.setTitle("Linear", for: .normal)
         button.setTitleColor(.systemBlue, for: .normal)
+        
         return button
     }()
     
